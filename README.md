@@ -1,3 +1,3 @@
 # personal website
 
-[lihengcao.github.io](lihengcao.github.io)
+[lihengcao.github.io](https://lihengcao.github.io/)

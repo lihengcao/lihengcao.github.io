@@ -2,3 +2,11 @@
     float: right; 
     text-align: right
 }
+
+table, th, td {
+    border-collapse: collapse;
+    border: 1px solid black;
+    padding: 4px;
+    /* width: 100%; */
+    text-align: left;
+}

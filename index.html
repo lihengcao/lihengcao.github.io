@@ -8,102 +8,20 @@
     <title>Liheng Cao 😃</title>
 </head>
 
-<nav class="menu">
-    Menu/Links/<a href="thought_provoking.html">Contact</a><br>
-    <a href='/bookshelf.html'>Book/shelf</a><br>
-    [WIP] <a href='https://lihengcao.github.io/blog/'>Blog</a><br>
-    <a href='https://github.com/lihengcao'>GitHub</a><br>
-    <a href='https://www.linkedin.com/in/lihengcao/'>LinkedIn</a><br>
-    <a href='https://www.github.com/lihengcao/resume'>PDF Resume</a><br>
-</nav>
+<nav class="menu" id="menu"></nav>
+<script src="/scripts/menu_script.js"></script>
+<p1>Last modified: </p1><p1 id="last-modified-display">{If you see this, enable JS}</p1>
+<script src="/scripts/last_modified_script.js"></script>
 
 <body>
     <h1>About 😃</h1>
-    <p1>Hi! I'm Liheng, and this is my website. It's very <i>lightweight</i> (:</p1><br>
-    <p1>Last modified: </p1><p1 id="last-modified-display">{If you see this, enable JS}</p1>
-
-    <h1>Assorted Projects</h1>
-    <h2>Random featured project</h2>
-    <button onclick="display_random();">Pick random project</button><br>
-    <h3 id="random-featured" style="border: 2px dotted; display: inline-block; padding: 10px;">If you see this, enable JS</h3>
-
-    <h2>Some other projects</h2>
-
-    <p1 class="featureable">
-        <a href="https://lihengcao.github.io/chessVariants/">[WIP] Chess Variants</a><br>
-        Nodejs, React
-        <ul>
-            <li>WIP</li>
-        </ul>
-    </p1>
-
-    <p1 class="featureable">
-        <a href="https://github.com/lihengcao/memory-organizer">[WIP] Memory organizer app</a><br>
-        Nodejs, Electron
-        <ul>
-            <li>WIP</li>
-        </ul>
-    </p1>
-
-    <p1 class="featureable">
-        <a href="https://github.com/lihengcao/2048Game">2048 Game (terminal)</a><br>
-        Python
-        <ul>
-            <li>This was an interview question that I failed back in the day</li>
-            <li>Simple terminal 2048 game written in Python</li>
-            <li>Terminal only for now, but might make a frontend for it so it can be played in the browser</li>
-        </ul>
-    </p1>
-
-    <p1 class="featureable">
-        <a href="https://lihengcao.github.io/ocr-browser/">OCR in the browser</a><br>
-        Python, Jupyter Notebook, PyTorch, ONNX, JS, CSS, HTML
-        <ul>
-            <li>Trained my own convolutional neural network using Pytorch on the EMNIST dataset</li>
-            <li>Set up a website to demo the model with mouse cursor drawing</li>
-            <li>No backend! Everything runs on locally in your browser.</li>
-        </ul>
-    </p1>
-
-    <p1 class="featureable">
-        <a href="https://lihengcao.github.io/cost-splitter">Cost Splitter</a><br>
-        HTML, CSS, JS
-        <ul>
-            <li>No backend webapp app to divide costs of multiple items between multiple people</li>
-            <li>Better than a spreadsheet!</li>
-            <li>Used for roomies' Costco runs</li>
-        </ul>
-    </p1>
+    <p1>Hi! I'm Liheng, and this is my website. It's very <b>lightweight</b> (:</p1><br>
+    <p1>Check the sidebar on the right for links and navigation</p1><br>
     
-    <p1 class="featureable">
-        <a href="https://lihengcao.github.io/when2meet-to-csv/">when2meet to csv converter</a><br>
-        Python, Jupyter Notebook
-        <ul>
-            <li>Scrapes when2meet to csv form</li>
-            <li>Some external tools allow for better analysis, but W2M has better UI for collecting responses</li>
-        </ul>
-    </p1>
-    
-    <p1 class="featureable">
-        <a href="https://github.com/lihengcao/scudem_animation">SCUDEM Competition Animations</a><br>
-        <a href="https://processing.org/">Processing</a>
-        <ul>
-            <li>Animations for the presentation of the SCUDEM modeling competition</li>
-            <li>Tied for first place in the competition :P</li>
-        </ul>
-    </p1>
-    
-    <p1 class="featureable">
-        <a href="https://github.com/lihengcao/interactiveMap">Interactive map and shortest path finder</a><br>
-        HTML, CSS, JS
-        <ul>
-            <li>Team project from high school for the STLP competition</li>
-            <li>Added points-of-interest manually, and shortest paths were computed with Dijkstra's algo.</li>
-            <li>Supported features like multiple floors (noncontinuous paths) and custom destinations near existing POIs</li>
-        </ul>
-    </p1>
+
+    <h1>Major Links</h1>
+    <h2><a href="/sections/bookshelf.html">Book/shelf</a></h2>
+    <h2><a href="/sections/projects.html">Projects</a></h2>
 </body>
-
-<script src="script.js"></script>
 
 </html>

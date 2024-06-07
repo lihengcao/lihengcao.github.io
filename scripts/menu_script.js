@@ -1,5 +1,5 @@
-fetch('/sections/menu.html')
-.then(response => response.text())
-.then(data => {
-    document.getElementById('menu').innerHTML = data;
-});
+fetch("/sections/menu.html")
+  .then((response) => response.text())
+  .then((data) => {
+    document.getElementById("menu").innerHTML = data;
+  });

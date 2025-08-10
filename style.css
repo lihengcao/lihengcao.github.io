@@ -12,3 +12,10 @@ td {
   /* width: 100%; */
   text-align: left;
 }
+
+.main-content {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 960px;
+  text-align: left; /* This is often the default, but it's good to be explicit. */
+}
